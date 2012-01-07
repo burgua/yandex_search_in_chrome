@@ -1,0 +1,15 @@
+﻿{
+  "name": "Context menu search with Yandex",
+  "version": "0.1",
+  "description": "This extensions helps you to search information with yandex from context menu",
+  "permissions" : [
+    "http://*",
+    "http://*/*",
+    "https://*",
+    "https://*/*",
+    "contextMenus"
+  ],
+  "icons": { "16" : "icons/16.png" },
+  "background_page": "background.html",
+  "content_security_policy": "default-src 'self'"
+}
