@@ -1,6 +1,6 @@
 ﻿{
-  "name": "Context menu search with Yandex",
-  "version": "0.1",
+  "name": "Поиск в Яндексе из контекстного меню",
+  "version": "0.3",
   "description": "This extensions helps you to search information with yandex from context menu",
   "permissions" : [
     "http://*",
@@ -9,7 +9,13 @@
     "https://*/*",
     "contextMenus"
   ],
-  "icons": { "16" : "icons/16.png" },
+  "icons": {
+    "16"  : "icons/16.png",
+    "32"  : "icons/32.png",
+    "48"  : "icons/48.png",
+    "64"  : "icons/64.png",
+    "128" : "icons/128.png"
+  },
   "background_page": "background.html",
   "content_security_policy": "default-src 'self'"
 }
