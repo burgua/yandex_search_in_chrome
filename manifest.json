@@ -1,21 +1,21 @@
 ﻿{
   "name": "Поиск в Яндексе из контекстного меню",
-  "version": "0.3",
+  "version": "0.7",
+  "manifest_version": 2,
   "description": "This extensions helps you to search information with yandex from context menu",
   "permissions" : [
-    "http://*",
-    "http://*/*",
-    "https://*",
-    "https://*/*",
     "contextMenus"
   ],
+  "background": {
+  	"scripts": [
+  	  	"code.js"
+  	]
+  },
   "icons": {
     "16"  : "icons/16.png",
     "32"  : "icons/32.png",
     "48"  : "icons/48.png",
     "64"  : "icons/64.png",
     "128" : "icons/128.png"
-  },
-  "background_page": "background.html",
-  "content_security_policy": "default-src 'self'"
+  }
 }
