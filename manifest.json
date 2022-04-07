@@ -1,6 +1,6 @@
 ﻿{
     "name": "Поиск в Яндексе из контекстного меню",
-    "version": "0.9",
+    "version": "1.0",
     "manifest_version": 3,
     "description": "This extensions helps you to search information with yandex from context menu",
     "permissions": ["contextMenus"],
